@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+
+
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video src="midia/video1280-720-30fps.mp4" width="500" controls></video>
+
+    <p>Para fazer como nas imagens, deixando várias versões no mesmo código para ter compatibilidade com mais dispositivos, faça assim:</p>
+
+    <video width="500px" poster="midia/imagem-bingo.png" controls>
+        <source src="midia/video1280-720-30fps.mp4" type="video/mp4">
+        <source src="midia/videoreduzido.mp4" type="video/mp4">
+        <source src="midia/videoreduzido.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+
+    </video>
+
+    <p>Outra forma de adicionar vídeos, que é clicar em <strong>INCORPORAR</strong> no YouTube ou <strong>COMPARTILHAR</strong> no Vimeo</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=driNZEMGVzeou6dJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>

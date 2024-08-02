@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --fonte-padrao: 'Bebas Neue', sans-serif;
+}
+
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    display: block;
+}
+
+.cabecalho {
+    display: block;
+    padding: 40px;
+}
+
+.quadro {
+    display: block;
+    background-color: burlywood;
+    width: 600px;
+    height: 500px;
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.quadro h1 {
+    padding-top: 80px;
+    font-size: 3em;
+}
+
+.quadro p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    margin: 40px;
+}
+
+.quadro button {
+    width: 150px;
+    height: 80px;
+    font-size: 2em;
+    position: relative;
+}
+
+.quadro #b-homem {
+    background-color: darkslategray;
+    color: wheat;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    border-color: white;
+}
+
+.quadro #b-homem span {
+    display: block;
+}
+
+.quadro #b-homem:hover span {
+    display: none;
+}
+
+
+.quadro #b-homem:hover::before {
+    content: 'Mulher';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 20, 145);
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    box-sizing: border-box;
+    cursor: ;
+
+}
+
+.quadro #b-mulher {
+    background-color: rgb(255, 20, 145);
+    color: aliceblue;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-color: white;
+}
+
+
+

@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    background-color: rgb(234, 255, 234);
+}
+
+header {
+    width:auto;
+    display: flex;
+    align-items:center;
+}
+
+header > div {
+    display: flex;
+    margin: auto;
+}
+
+
+#bingosena-img {
+    width: 100px;
+    margin: 10px 10px 10px 40px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200px;
+
+}
