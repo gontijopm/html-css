@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+
+        /* .div {
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .q1, .q2, .q3 {
+            width: 280px;
+            height: 180px;
+            border: 4px solid black;
+            margin: 20px;
+            
+        } essa foi a representação que eu fiz. a outra é do guanabara */
+
+        body {
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        
+        div.quadrado {
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            background-color: gray;
+        }
+
+        div#q1 {
+            background-color: skyblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern001.png); /* lembrando: se a imagem for pequena demais, ela vai ficar repetindo até cobrir toda a área. Se for grande demais, apenas um pedaço dela vai ser exibida no bloco */
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- <div class="div">
+        <div class="q1" class="quadrado"></div>
+        <div class="q2" class="quadrado"></div>
+        <div class="q3" class="quadrado"></div>
+    </div> essa foi a representação que eu fiz. a outra é do guanabara -->
+
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+
+</body>
+</html>
