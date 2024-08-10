@@ -37,8 +37,6 @@ header h1 {
 
 header p {
     padding-bottom: 60px;
-
-
 }
 
 header a, footer a {
@@ -51,40 +49,44 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-
 section {
-    padding-top: 10vh;
+    padding: 10vh 0px 10vh 30px;
+    /* padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px; */
     line-height: 3em;
-    padding-left: 30px;
     font-size: 2.5vw;
     font-style: italic;
 }
 
 .sec-imagem {
     background-color: gray;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .sec-imagem > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.322);
     backdrop-filter: blur(20px);
-    width: 40%;
+    padding: 0px 20px;
     color: white;
 }
 
 .sec-imagem:nth-child(2) {
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    /* background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
 }
 
 .sec-imagem:nth-child(4) {
     background-image: url(imagens/background002.jpg);
-    background-position: center center;
+    /* background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 footer {
