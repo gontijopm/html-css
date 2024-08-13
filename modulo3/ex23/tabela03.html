@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesclagem de células</title>
+    <style>
+        
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            padding: 30px;
+        }
+
+        table td {
+            padding: 50px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            vertical-align: center;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -11,23 +41,23 @@
 
     <table><tr>
         <td>A</td>
-        <td>B</td>
-        <td>C</td>
+        <td colspan="2">B</td>
+
     </tr>
     <tr>
-        <td>D</td>
+        <td rowspan="3">D</td>
         <td>E</td>
-        <td>F</td>
+        <td rowspan="2">F</td>
     </tr>
     <tr>
-        <td>G</td>
-        <td></td>
-        <td></td>
+   
+        <td>H</td>
+       
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+
+        <td colspan="2">K</td>
+
     </tr></table>
     
 </body>
